@@ -5,6 +5,8 @@ import (
 	"sync/atomic"
 )
 
+//Автор - Чурин Владимир Михаилович
+
 type SafeMap struct {
 	mu        sync.Mutex
 	data      map[int]*int64
